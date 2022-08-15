@@ -101,3 +101,31 @@ html{
 }
 
 
+@media (max-width: 700px) { 
+    .container{
+        width: 90vw;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .pendientes{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .crear{
+        width: 100%;
+    }
+
+    .todo-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .todo{
+        width: 100%;
+    }
+ }
+
